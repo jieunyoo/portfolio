@@ -247,7 +247,7 @@ header {
 }
 
 .project-image {
-  height: calc(100% - 12.8rem);
+  height:15vw;
   width: 70%;
   display:block;
   object-fit: contain;
