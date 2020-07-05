@@ -248,7 +248,7 @@ header {
 
 .project-image {
   height: calc(100% - 12.8rem);
-  width: 80%;
+  width: 70%;
   display:block;
   object-fit: contain;
   margin: auto;
@@ -257,7 +257,7 @@ header {
 
 .project-title {
   font-size:2rem;
-  padding: 2rem 0.5rem;
+  padding: 0.5rem 0.5rem;
   color: white;
 }
 
