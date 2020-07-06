@@ -108,6 +108,7 @@
 
 	.section__title {
 		margin-bottom: .25em;
+		margin-right: 1em;
 	}
 
 	.section__title--intro {
@@ -189,6 +190,7 @@ header {
 .about-me {
     max-width: 1500px;
     margin: 0 auto;
+	text-align:center;
 }
 
 
