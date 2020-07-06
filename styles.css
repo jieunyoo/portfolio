@@ -153,6 +153,11 @@ header {
     position: relative;
 }
 
+.intro__img {
+	max-width:100%;
+	margin:auto;
+}
+
 .section__subtitle--intro {
     display: inline-block;
 }
@@ -172,8 +177,7 @@ header {
     .intro__img {
         grid-area: img;
         min-width: 250px;
-        position: relative;
-        z-index: 2;
+	
     }    
     
     .section__subtitle--intro {
@@ -240,8 +244,6 @@ header {
 .container {
 	justify-content:flex-start;
 	flex-direction:row;
-	padding-left:250px;
-	padding-right:250px;
 }
 .grid {
 	grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
@@ -274,7 +276,6 @@ header {
 	position:relative;
 	background: #fff;
 	border: 1px solid #dcdcdc;
-	padding: 20px 20px 20px 20px;
 	font-size: 30px;
 	/*box-shadow: 0 1px 6px 0 rgba(0,0,0,.3)*/
 }
