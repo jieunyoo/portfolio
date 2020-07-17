@@ -2,113 +2,105 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
         <title> Jieun Yoo </title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
         
-        <!-- Update these with your own fonts -->
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
-        <!-- Introduction -->
+
+
 		<section class="about-me" id="about">
             <h1 class="section__title section__title--intro">
                 <strong> Jieun Yoo</strong>
             </h1>
         </section>
 
-
-        <!-- START PROJECTS SECTION -->
 		<section class="about-me" id="about">
 			<h1 class="section__title section__title--intro"> <strong>Projects</strong> </h1>
-				<div class="grid">
-					<div class="card">
-						<a href="https://jieunyoo.github.io/tutorial.html">
-							<div class="card_header"> Tech. Documentation
-							</div>
-							<div class="card_footer"> 
-							<img src="img/document.png" class="photo-img">
-							</div>
-						</a> 
-					</div>
 				
-				<div class="card">
-					<a href="https://onehundredmountains.netlify.app">
-						<div class="card_header"> Hiking Blog
-						</div>
-						<div class="card_footer"> 
-							<img src="img/mountain.png" class="photo-img">
-						</div>
-					</a>
-				</div>
+			<div class="container">
 
-				<div class="card">
-					<a href="https://jieun-movie-app.netlify.app/">
-						<div class="card_header"> Movie Trends App
-						</div>
-						<div class="card_footer"> 
-							<img src="img/film.jpg" class="photo-img">
-						</div></a>
-				</div>
+    	<div class="row h-100">
+			<div class="col-sm-12 my-auto">
+			<div class="card-deck">
 
+				<div class="card" style="width: 15rem;">
+					<img class="card-img-top" src="img/document.png" class="img-responsive" alt="Card image cap">
+  					
+					<div class="card-body">
+    					<h2 class="card-title"> Tech Documentation </h2>
+    						<p class="card-text"> Learn how to implement a simple numerical algorithm in ROOT</p>
+							<a href="https://jieunyoo.github.io/tutorial.html" class="btn btn-primary">Go</a>
+					</div>
+			</div>
 
-
-				<div class="card">
-					<a href="https://daily-dog-photo.netlify.app/">
-						<div class="card_header"> Dog Meme App
-						</div>
-						<div class="card_footer"> 
-							<img src="img/dog.jpg" class="photo-img">
-						</div></a>
+				<div class="card" style="width: 15rem;">
+					<img class="card-img-top" src="img/mountain.png" class="img-responsive" alt="Card image cap">
+  					
+					<div class="card-body">
+    					<h2 class="card-title"> Hiking Blog </h2>
+    						<p class="card-text"> A blog run on jekyll, with bootstrap</p>
+    						<a href="https://onehundredmountains.netlify.app" class="btn btn-primary"> Go</a>
+  					</div>
 				</div>
 
 
-				<div class="card">
-					<a href="https://jieun-tic-tac-toe.netlify.app/">
-						<div class="card_header"> Tic Tac Toe Game
-						</div>
-						<div class="card_footer"> 
-							<img src="img/tgame.jpg" class="photo-img">
-						</div></a>
+				<div class="card" style="width: 15rem;">
+					<img class="card-img-top" src="img/film.jpg" class="img-responsive" alt="Card image cap">
+  					
+					<div class="card-body">
+    					<h2 class="card-title"> Movie App </h2>
+    						<p class="card-text"> Find the latest trending movies. Data from the Movie DB API</p>
+    						<a href="https://jieun-movie-app.netlify.app" class="btn btn-primary"> Go</a>
+  					</div>
 				</div>
-
-
-
-
+			</div>
+			</div>
 		</div>
+		<br>
+    	<div class="row h-100">
+			<div class="col-sm-12 my-auto">
+			<div class="card-deck">
+				<div class="card" style="width: 15rem;">
+					<img class="card-img-top" src="img/dog.jpg" class="img-responsive" alt="Card image cap">
+  					
+					<div class="card-body">
+    					<h2 class="card-title"> Dog Meme App </h2>
+    						<p class="card-text">Create your own dog meme</p>
+    						<a href="https://daily-dog-photo.netlify.app" class="btn btn-primary">Go </a>
+  					</div>
+				</div>
 
-</section>
-<!-- END PROJECTS SECTION -->
-        
-        
-        <!-- START PROJECTS SECTION -->
-		<section class="about-me" id="about">
-			<h1 class="section__title section__title--intro"> <strong> Sites/Apps I have contributed to</strong> </h1>
-				<div class="grid">
-					<div class="card">
-						<a href="https://captain-minerva.fnal.gov/">
-							<div class="card_header"> CAPTAIN-MINERvA
-							</div>
-							<div class="card_footer"> 
-							<img src="img/captain.png" class="photo-img">
-							</div>
-						</a> 
-					</div>
+				<div class="card" style="width: 15rem;">
+					<img class="card-img-top" src="img/tgame.jpg" class="img-responsive" alt="Card image cap">
+  					
+					<div class="card-body">
+    					<h2 class="card-title"> Tic-Tac-Toe Game </h2>
+						<p class="card-text"> Play tic tac toe</p>
+    						<a href="https://jieun-tic-tac-toe.netlify.app" class="btn btn-primary">Go</a>
+  					</div>
+				</div>
 
-					<div class="card">
-						<a href="https://play.google.com/store/apps/details?id=org.opportunityeducation.quest&hl=en_US">
-							<div class="card_header"> Quest! by Opportunity Education
-							</div>
-							<div class="card_footer"> 
-							<img src="img/quest.png" class="photo-img">
-							</div>
-						</a> 
-					</div>
+			</div>
+			</div>
+		</div>
 		</div>
 </section>
-<!-- END PROJECTS SECTION -->
+        
+        
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
     </body>
 </html>
